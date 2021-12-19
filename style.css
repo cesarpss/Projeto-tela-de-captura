@@ -111,6 +111,12 @@ footer{
         margin-right: 15px;
         width: 80px;
     }
+    section{        
+        background-image: url(./image/section.png);
+        background-size: cover; 
+        background-attachment: local;  
+        background-position: center;         
+    }
     
     .cabeçalho{
         transform: translateY(25px);
@@ -148,7 +154,11 @@ footer{
         }
         
         section{
-            padding-left: 0px;            
+            padding-left: 0px; 
+            background-image: url(./image/section.png);
+            background-size: cover;
+            background-attachment: local; 
+            background-position: center;          
         }
 
         .container{
